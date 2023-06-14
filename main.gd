@@ -4,7 +4,7 @@ var ar_interface = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	ar_interface = XRServer.find_interface("ARCore")
+	ar_interface = XRServer.find_interface("OpenXR")
 	
 	if ar_interface and ar_interface.initialize():
 			get_viewport().use_xr = true

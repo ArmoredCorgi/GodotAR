@@ -11,9 +11,11 @@ background_mode = 5
 script = ExtResource("1_662mx")
 
 [node name="XROrigin3D" type="XROrigin3D" parent="."]
+current = true
 
 [node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D"]
 environment = SubResource("Environment_gkgw2")
+current = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, -1.22018)
