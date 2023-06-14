@@ -1,13 +1,12 @@
 extends Node3D
 
-var arkit = null
+var openxr = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	arkit = XRServer.find_interface("ARKit")
+	openxr = XRServer.find_interface("OpenXR")
 	
-	if arkit:
-		if arkit.initialize():
+	if openxr and openxr.initialize():
 			get_viewport().use_xr = true
 
 
