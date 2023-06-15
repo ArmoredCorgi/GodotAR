@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5mn6st7lccoy"]
+[gd_scene load_steps=3 format=3 uid="uid://b5mn6st7lccoy"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_7ku6q"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_tat75"]
 
 [node name="Main" type="Node3D"]
+script = ExtResource("1_7ku6q")
 
 [node name="XROrigin3D" type="XROrigin3D" parent="."]
 

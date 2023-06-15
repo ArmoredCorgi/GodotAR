@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "E:\\GodotProjects\\GodotAR\\android\\build\\res\\values-it\\godot_project_name_string.xml",
+                    "source": "E:\\GodotProjects\\godotAR-github\\GodotAR\\android\\build\\res\\values-it\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
